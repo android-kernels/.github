@@ -181,7 +181,7 @@ jobs:
                 log "Total new commits: $TOTAL (mirror tip: ${MIRROR_TIP:-none})"
 
                 if [ "$BATCH" -eq 0 ]; then
-                  CURRENT_TRY=$TOTAL
+                  CURRENT_TRY=$(( TOTAL / 2 ))
                 else
                   CURRENT_TRY=$(( TOTAL < BATCH ? TOTAL : BATCH ))
                 fi
