@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - repos.json
+  workflow_dispatch:
 
 concurrency:
   group: mirror
