@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://github.com/MotorolaMobilityLLC/kernel-sprd",
+    "prefix": "motorola-sprd-"
+  }, {
+    "url": "https://github.com/MotorolaMobilityLLC/kernel-mtk",
+    "prefix": "motorola-mtk-"
+  }, {
+    "url": "https://github.com/MotorolaMobilityLLC/kernel-msm",
+    "prefix": "motorola-msm-"
+  }, {
+    "url": "https://github.com/MotorolaMobilityLLC/kernel-slsi",
+    "prefix": "motorola-slsi-"
+  }, {
+    "url": "https://github.com/micode/xiaomi_kernel_opensource",
+    "prefix": "xiaomi-"
+  }
+]
