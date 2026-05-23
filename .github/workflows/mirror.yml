@@ -232,7 +232,6 @@ jobs:
                 fi
               done
               gh repo edit "android-kernels/$repo" --default-branch "$branch"
-              git push mirror --mirror
             fi
 
             gh repo edit "android-kernels/$repo" --default-branch "$branch"
