@@ -147,7 +147,7 @@ jobs:
 
             log "Pushing to mirror repo"
             set +e
-            git push --quiet mirror "refs/remotes/origin/$branch:refs/heads/$branch"
+            git push --quiet mirror "refs/heads/$branch:refs/heads/$branch"
             ret="$?"
             set -e
             if [ "$ret" -ne 0 ]; then
